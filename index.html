@@ -13,117 +13,139 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html">Daria</a>
-      <nav>
+    <header class="header">
+      <div class="container">
+        <a href="./index.html"> <p class="logo-text">Dari.</p></a>
+        <nav>
+          <ul class="header-nav list">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+        </nav>
+        <ul class="header-nav">
+          <li>
+            <a href="tel:+380635822191">
+              <svg width="15" height="15">
+                <use href="./images/icons/symbol-defs.svg#icon-phone"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:dari.shpak.codes@gmail.com">
+              <svg width="15" height="15">
+                <use href="./images/icons/symbol-defs.svg#icon-mail"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <img src="./images/hero3.png" alt="" width="350" class="hero-img" />
+          <h1 class="hero-title">
+            Hello, I'm Daria. FrontEnd developer based in Kyiv.
+          </h1>
+          <p>I`m passionate about creating products that people love to use.</p>
+          <ul>
+            <li> <a href="">Get in touch</a></li>
+            <li><button type="button">Download CV</button></li>
+          </ul>
+         
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/dari-shpak/"
+                target="_blank"
+                rel="noreferrer noopener"
+                >IN</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/DariShpak"
+                target="_blank"
+                rel="noreferrer noopener"
+                >GH</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2>What I do</h2>
+          <ul>
+            <li>
+              <h3>Design</h3>
+              <p>
+                Craft logos and visuals; develop brand guidelines for
+                consistency
+              </p>
+            </li>
+            <li>
+              <h3>Development</h3>
+              <p>
+                I build tailored solutions using cutting-edge tech to meet
+                client needs
+              </p>
+            </li>
+            <li>
+              <h3>Strategy</h3>
+              <p>
+                Customized solutions, results-driven: Market research, strategy,
+                execution
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2>Selected Work</h2>
+          <ul>
+            <li>
+              <h3>Human Engineering Website</h3>
+              <p>2024</p>
+            </li>
+            <li>
+              <h3>Group project</h3>
+              <p>2023</p>
+            </li>
+            <li>
+              <h3>Individual project</h3>
+              <p>2023</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <section>
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <p>Want to create something awesome?</p>
+        <a href="">Get in touch</a>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./about.html">About</a></li>
         </ul>
-      </nav>
-      <ul>
-        <li><a href="tel:+380635822191">📞</a></li>
-        <li><a href="mailto:dari.shpak.codes@gmail.com">✉️</a></li>
-      </ul>
-    </header>
-    <main>
-      <section>
-        <p>Kyiv</p>
-        <h1 class="hero-title">
-          Hello, I'm Daria. FrontEnd developer based in Kyiv.
-        </h1>
-        <p>I`m passionate about creating products that people love to use.</p>
-        <a href="">Get in touch</a>
         <ul>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1b5-_WPS2a1CpHvZNWC09ZX6WtWiIZpAc/view?pli=1"
-              target="_blank"
-              rel="noreferrer noopener"
-              >CV</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/dari-shpak/"
-              target="_blank"
-              rel="noreferrer noopener"
-              >IN</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://github.com/DariShpak"
-              target="_blank"
-              rel="noreferrer noopener"
-              >GH</a
-            >
-          </li>
+          <li><a href="tel:+380635822191">📞</a></li>
+          <li><a href="mailto:dari.shpak.codes@gmail.com">✉️</a></li>
         </ul>
-        <img
-          src="./images/hero2.jpg"
-          alt="the photo of Dari Shpak"
-          width="328"
-        />
-      </section>
-      <section>
-        <h2>What I do</h2>
-        <ul>
-          <li>
-            <h3>Design</h3>
-            <p>
-              Craft logos and visuals; develop brand guidelines for consistency
-            </p>
-          </li>
-          <li>
-            <h3>Development</h3>
-            <p>
-              I build tailored solutions using cutting-edge tech to meet client
-              needs
-            </p>
-          </li>
-          <li>
-            <h3>Strategy</h3>
-            <p>
-              Customized solutions, results-driven: Market research, strategy,
-              execution
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Selected Work</h2>
-        <ul>
-          <li>
-            <h3>Human Engineering Website</h3>
-            <p>2024</p>
-          </li>
-          <li>
-            <h3>Group project</h3>
-            <p>2023</p>
-          </li>
-          <li>
-            <h3>Individual project</h3>
-            <p>2023</p>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <section>
-      <h2>Get in Touch</h2>
-      <p>Want to create something awesome?</p>
-      <a href="">Get in touch</a>
-    </section>
-    <footer>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./about.html">About</a></li>
-      </ul>
-      <ul>
-        <li><a href="tel:+380635822191">📞</a></li>
-        <li><a href="mailto:dari.shpak.codes@gmail.com">✉️</a></li>
-      </ul>
-      <p>Developed with 🖤 by Dari Shpak</p>
+        <p>
+          Developed with 
+          <svg width="8" height="8" class="heart-icon">
+            <use href="./images/icons/symbol-defs.svg#icon-heart"></use>
+          </svg>
+           by Dari Shpak
+        </p>
+      </div>
     </footer>
   </body>
 </html>
