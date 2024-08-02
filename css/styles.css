@@ -47,6 +47,16 @@ a {
   box-shadow: 6px 8px 15px 0px rgba(0, 0, 0, 0.15), -8px -6px 15px 0px #fff;
 }
 
+.button:hover,
+.button:focus {
+  border-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 10px 13px 20px rgba(0, 0, 0, 0.15), -13px -10px 20px #fff;
+}
+
+.button:active {
+  box-shadow: inset -8px -7px 10px #fff, inset 8px 7px 10px rgba(0, 0, 0, 0.15);
+}
+
 /* Header */
 
 .header {
@@ -85,6 +95,20 @@ a {
   line-height: 1.2;
 }
 
+.button-list {
+  display: flex;
+  gap: 16px;
+
+  margin-top: 32px;
+}
+
+.social-list {
+  display: flex;
+  gap: 16px;
+
+  margin-top: 32px;
+}
+
 .social-item {
   display: flex;
   width: 40px;
@@ -96,6 +120,16 @@ a {
   border-radius: 40px;
   background: #f1f1f1;
   box-shadow: 6px 8px 15px 0px rgba(0, 0, 0, 0.15), -8px -6px 15px 0px #fff;
+}
+
+.social-item:hover,
+.social-item:focus {
+  border-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 10px 13px 20px rgba(0, 0, 0, 0.15), -13px -10px 20px #fff;
+}
+
+.social-item:active {
+  box-shadow: inset -8px -7px 10px #fff, inset 8px 7px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* footer */
