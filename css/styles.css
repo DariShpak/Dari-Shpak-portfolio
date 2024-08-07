@@ -51,6 +51,7 @@ img {
 
 .link {
   text-decoration: none;
+   color: var(--main-text-color);
 }
 
 .link:visited {
