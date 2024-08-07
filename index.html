@@ -18,48 +18,47 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <a href="./index.html"> <p class="logo-text">Dari.</p></a>
+      <div class="container header-container">
+        <a href="./index.html" class="link"> <p class="logo-text">Dari.</p></a>
         <nav>
           <ul class="header-nav list">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About</a></li>
+            <li><a href="./index.html" class="link">Home</a></li>
+            <li><a href="./about.html" class="link">About</a></li>
           </ul>
         </nav>
-        <ul class="header-nav">
+        <ul class="header-socials-list">
           <li class="social-item">
-            <a href="tel:+380635822191">
-              <svg width="15" height="15">
-                <use href="./images/icons/symbol-defs.svg#icon-phone"></use>
+            <a href="tel:+380635822191" class="link">
+              <svg width="30" height="30" class="phone-icon">
+                <use href="./images/icons/icons.svg#icon-phone"></use>
               </svg>
             </a>
           </li>
           <li class="social-item">
-            <a href="mailto:dari.shpak.codes@gmail.com">
-              <svg width="15" height="15">
-                <use href="./images/icons/symbol-defs.svg#icon-mail"></use>
+            <a href="mailto:dari.shpak.codes@gmail.com" class="link">
+              <svg width="40" height="40" class="email-icon">
+                <use href="./images/icons/icons.svg#icon-mail"></use>
               </svg>
             </a>
           </li>
         </ul>
+        <button class="mob-menu-btn">=</button>
       </div>
     </header>
     <main>
-      <section class="hero-section">
+      <section class="hero-section section">
         <div class="container">
           <img src="./images/hero3.png" alt="" width="350" class="hero-img" />
-          <h1 class="hero-title">
+          <h1 class="hero-title section-title">
             Hello, I'm Daria. FrontEnd developer based in Kyiv.
           </h1>
           <p>I`m passionate about creating products that people love to use.</p>
-          <ul class="button-list list">
-            <li><a href="" class="button">Get in touch</a></li>
-            <li><button type="button" class="button">Download CV</button></li>
-          </ul>
+          <a href="" class="button link hero-button">Get in touch</a>
 
           <ul class="social-list">
             <li class="social-item">
               <a
+                class="link"
                 href="https://www.linkedin.com/in/dari-shpak/"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -68,6 +67,7 @@
             </li>
             <li class="social-item">
               <a
+                class="link"
                 href="https://github.com/DariShpak"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -77,26 +77,41 @@
           </ul>
         </div>
       </section>
-      <section>
-        <div class="container">
-          <h2>What I do</h2>
-          <ul>
-            <li>
-              <h3>Design</h3>
+      <section class="section about-section">
+        <div class="container about-container">
+          <div class="content-wrapper">
+            <h2 class="section-title about-title">About me</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+              libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
+              lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+            </p>
+          </div>
+          <a href="" class="button link">More about me</a>
+        </div>
+      </section>
+      <section class="section services-section">
+        <div class="container services-container">
+          <h2 class="section-title services-title">My services</h2>
+          <ul class="list services-list">
+            <li class="services-item content-wrapper">
+              <h3 class="section-subtitle">Design</h3>
               <p>
                 Craft logos and visuals; develop brand guidelines for
                 consistency
               </p>
             </li>
-            <li>
-              <h3>Development</h3>
+            <li class="services-item content-wrapper">
+              <h3 class="section-subtitle">Development</h3>
               <p>
                 I build tailored solutions using cutting-edge tech to meet
                 client needs
               </p>
             </li>
-            <li>
-              <h3>Strategy</h3>
+            <li class="services-item content-wrapper">
+              <h3 class="section-subtitle">Strategy</h3>
               <p>
                 Customized solutions, results-driven: Market research, strategy,
                 execution
@@ -105,47 +120,132 @@
           </ul>
         </div>
       </section>
-      <section>
-        <div class="container">
-          <h2>Selected Work</h2>
-          <ul>
-            <li>
-              <h3>Human Engineering Website</h3>
-              <p>2024</p>
+      <section class="section portfolio-section">
+        <div class="container portfolio-container">
+          <h2 class="section-title portfolio-title">Portfolio</h2>
+          <ul class="portfolio-list list">
+            <li class="portfolio-item content-wrapper">
+              <img
+                class="portfolio-img"
+                src="./images/he.jpg"
+                alt="human engineering website image"
+              />
+              <h3 class="section-subtitle">Human Engineering Website</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt, quo.
+              </p>
+              <a href="" class="button link hero-button">View project</a>
             </li>
-            <li>
-              <h3>Group project</h3>
-              <p>2023</p>
+            <li class="portfolio-item content-wrapper">
+              <img
+                class="portfolio-img"
+                src="./images/cinemania.jpg"
+                alt="cinemania website image"
+              />
+              <h3 class="section-subtitle">Cinemania</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error,
+                non!
+              </p>
+              <a href="" class="button link hero-button">View project</a>
             </li>
-            <li>
-              <h3>Individual project</h3>
-              <p>2023</p>
+            <li class="portfolio-item content-wrapper">
+              <img
+                class="portfolio-img"
+                src="./images/react.jpg"
+                alt="website photo"
+              />
+              <h3 class="section-subtitle">React app</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laborum, magnam.
+              </p>
+              <a href="" class="button link hero-button">View project</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section feedback-section">
+        <div class="container feedback-container">
+          <h2 class="section-title feedback-title">Feedback</h2>
+          <ul class="feedback-list list">
+            <li class="content-wrapper">
+              <p>
+                Сайт - насправді краса !!! Сиджу - любуюсь !!! Дякую тобі дуже
+                ))) тепер я - твій амбасадор )))
+              </p>
+            </li>
+            <li class="content-wrapper">
+              <p>
+                Те відчуття, коли кажуть, «У вас три «так», і ви проходите в
+                наступний тур»))
+              </p>
+            </li>
+            <li class="content-wrapper">
+              <p>
+                Collaborated with Daria on several group projects. At each of
+                them, she showed unusually high creativity, a structured
+                approach to the task, timely and complete completion of all
+                tasks. As a developer, Daria has always provided clean,
+                organized, and easy-to-read code. She is a team player and easy
+                to communicate with even in stressful situations. I recommend
+                Daria as an excellent specialist, and i am sure that her
+                development skills will be useful in any team.
+              </p>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <section>
-      <div class="container">
-        <h2>Get in Touch</h2>
-        <p>Want to create something awesome?</p>
-        <a href="">Get in touch</a>
+    <section class="section contact-section">
+      <div class="container contact-container">
+        <div class="content-wrapper contact-content-wrapper">
+          <h2 class="visually-hidden">Contact</h2>
+          <p class="section-title contact-text">
+            Want to create something awesome?
+          </p>
+          <p class="section-title contact-text">Drop me a message.</p>
+          <a href="" class="button link contact-button">Tap here</a>
+        </div>
       </div>
     </section>
-    <footer>
-      <div class="container">
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-        </ul>
-        <ul>
-          <li><a href="tel:+380635822191">📞</a></li>
-          <li><a href="mailto:dari.shpak.codes@gmail.com">✉️</a></li>
-        </ul>
+    <footer class="content-wrapper">
+      <div class="container footer-container">
+        <a href="./index.html" class="link"> <p class="logo-text footer-logo">Dari.</p></a>
         <p>
+          Frontend developer who creates memorable projects.
+        </p>
+        <ul class="social-list list">
+          <li class="social-item">
+            <a href="tel:+380635822191" class="link">📞</a>
+          </li>
+          <li class="social-item">
+            <a href="mailto:dari.shpak.codes@gmail.com" class="link">✉️</a>
+          </li>
+          <li class="social-item">
+            <a
+              class="link"
+              href="https://www.linkedin.com/in/dari-shpak/"
+              target="_blank"
+              rel="noreferrer noopener"
+              >IN</a
+            >
+          </li>
+          <li class="social-item">
+            <a
+              class="link"
+              href="https://github.com/DariShpak"
+              target="_blank"
+              rel="noreferrer noopener"
+              >GH</a
+            >
+          </li>
+        </ul>
+        <p class="footer-text">
           Developed with
           <svg width="8" height="8" class="heart-icon">
-            <use href="./images/icons/symbol-defs.svg#icon-heart"></use>
+            <use href="./images/icons/icons.svg#icon-heart"></use>
           </svg>
           by Dari Shpak
         </p>
