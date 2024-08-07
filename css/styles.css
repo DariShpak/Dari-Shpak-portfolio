@@ -51,7 +51,7 @@ img {
 
 .link {
   text-decoration: none;
-   color: var(--main-text-color);
+  color: var(--main-text-color);
 }
 
 .link:visited {
@@ -153,44 +153,13 @@ img {
   display: none;
 }
 
-.mob-menu-btn {
-  display: flex;
-  width: 40px;
-  height: 40px;
-  padding: 9px 13px 9px 13px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 40px;
+.mob-menu-btn.social-item {
   border: transparent;
-  background: #f1f1f1;
-  box-shadow: 6px 8px 15px 0px rgba(0, 0, 0, 0.15), -8px -6px 15px 0px #fff;
+  padding: 10px 2px 4px 2px;
 }
 
-.mob-menu-btn:hover,
-.mob-menu-btn:focus {
-  border-color: rgba(255, 255, 255, 0.05);
-  box-shadow: 10px 13px 20px rgba(0, 0, 0, 0.15), -13px -10px 20px #fff;
-}
-
-.mob-menu-btn:active {
-  box-shadow: inset -8px -7px 10px #fff, inset 8px 7px 10px rgba(0, 0, 0, 0.15);
-}
-
-.phone-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  fill: var(--main-text-color);
-  padding: 3px;
-}
-
-.email-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  fill: var(--main-text-color);
-  padding: 3px;
+.icon-burger{
+  stroke: #555555;
 }
 
 /* hero section */
@@ -222,7 +191,7 @@ img {
   display: flex;
   width: 40px;
   height: 40px;
-  padding: 9px 13px 9px 13px;
+  padding: 4px 2px 4px 2px;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
@@ -240,6 +209,11 @@ img {
 
 .social-item:active {
   box-shadow: inset -8px -7px 10px #fff, inset 8px 7px 10px rgba(0, 0, 0, 0.15);
+}
+
+.icon-tg {
+  fill: var(--heading-color);
+
 }
 
 /* about section */
@@ -262,6 +236,15 @@ img {
   border-radius: 32px;
   background: rgba(255, 255, 255, 0);
   box-shadow: -8px -6px 15px 0px #fff, 6px 8px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.text-container {
+  display: flex;
+  gap: 16px;
+}
+
+.icon-girl {
+  fill: var(--heading-color);
 }
 
 /* services */
@@ -295,11 +278,11 @@ img {
 
 /* feedback section */
 
-.feedback-title{
+.feedback-title {
   margin-bottom: 44px;
 }
 
-.feedback-list{
+.feedback-list {
   display: flex;
   flex-wrap: wrap;
 
@@ -308,21 +291,20 @@ img {
 
 /* contact section  */
 
-.contact-content-wrapper{
+.contact-content-wrapper {
   text-align: center;
 }
 
-.contact-button{
-margin-left: auto;
-margin-right: auto;
+.contact-button {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* footer */
-.footer-logo{
-margin-bottom: 24px;
-
+.footer-logo {
+  margin-bottom: 24px;
 }
-.footer-text{
+.footer-text {
   margin-top: 44px;
   font-size: 12px;
 }

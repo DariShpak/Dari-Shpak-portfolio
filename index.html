@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daria Shpak</title>
+    <link rel="icon" type="image/x-icon" href="./images/icons/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,9 +29,9 @@
         </nav>
         <ul class="header-socials-list">
           <li class="social-item">
-            <a href="tel:+380635822191" class="link">
-              <svg width="30" height="30" class="phone-icon">
-                <use href="./images/icons/icons.svg#icon-phone"></use>
+            <a href="https://t.me/dari_shpak" class="link">
+              <svg width="30" height="30" class="tg-icon">
+                <use href="./images/icons/icons.svg#icon-tg"></use>
               </svg>
             </a>
           </li>
@@ -42,18 +43,22 @@
             </a>
           </li>
         </ul>
-        <button class="mob-menu-btn">=</button>
+        <button class="social-item mob-menu-btn">
+        <svg class="icon-burger" width="80" height="80">
+          <use href="./images/icons/icons.svg#icon-burger"></use>
+        </svg>
+        </button>
       </div>
     </header>
     <main>
-      <section class="hero-section section">
+      <section class="section hero-section">
         <div class="container">
           <img src="./images/hero3.png" alt="" width="350" class="hero-img" />
           <h1 class="hero-title section-title">
             Hello, I'm Daria. FrontEnd developer based in Kyiv.
           </h1>
           <p>I`m passionate about creating products that people love to use.</p>
-          <a href="" class="button link hero-button">Get in touch</a>
+          <a href="" class="button link hero-button"> Get in touch</a>
 
           <ul class="social-list">
             <li class="social-item">
@@ -62,7 +67,8 @@
                 href="https://www.linkedin.com/in/dari-shpak/"
                 target="_blank"
                 rel="noreferrer noopener"
-                >IN</a
+              >
+                IN</a
               >
             </li>
             <li class="social-item">
@@ -71,8 +77,24 @@
                 href="https://github.com/DariShpak"
                 target="_blank"
                 rel="noreferrer noopener"
-                >GH</a
               >
+                GH
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                class="link"
+                href="https://t.me/dari_shpak"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                TG
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="link" href="" target="_blank" rel="noreferrer noopener">
+                CV
+              </a>
             </li>
           </ul>
         </div>
@@ -80,7 +102,13 @@
       <section class="section about-section">
         <div class="container about-container">
           <div class="content-wrapper">
-            <h2 class="section-title about-title">About me</h2>
+            <div class="text-container">
+              <h2 class="section-title about-title">About me</h2>
+              <svg width="45" height="45" class="icon-girl">
+                <use href="./images/icons/icons.svg#icon-girl"></use>
+              </svg>
+            </div>
+
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique. Duis cursus,
@@ -212,10 +240,10 @@
     </section>
     <footer class="content-wrapper">
       <div class="container footer-container">
-        <a href="./index.html" class="link"> <p class="logo-text footer-logo">Dari.</p></a>
-        <p>
-          Frontend developer who creates memorable projects.
-        </p>
+        <a href="./index.html" class="link">
+          <p class="logo-text footer-logo">Dari.</p></a
+        >
+        <p>Frontend developer who creates memorable projects.</p>
         <ul class="social-list list">
           <li class="social-item">
             <a href="tel:+380635822191" class="link">📞</a>
