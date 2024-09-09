@@ -17,77 +17,91 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <a href="./index.html" class="link">Daria</a>
+    <header class="header">
+      <div class="container header-container">
+        <a href="./index.html" class="link"> <p class="logo-text">Dari.</p></a>
         <nav>
-          <ul>
+          <ul class="header-nav list">
             <li><a href="./index.html" class="link">Home</a></li>
             <li><a href="./about.html" class="link">About</a></li>
           </ul>
         </nav>
-        <ul>
-          <li><a href="tel:+380635822191" class="link">📞</a></li>
-          <li>
-            <a href="mailto:dari.shpak.codes@gmail.com" class="link">✉️</a>
+        <ul class="header-socials-list">
+          <li class="social-item">
+            <a href="https://t.me/dari_shpak" class="link">
+              <svg width="30" height="30" class="tg-icon">
+                <use href="./images/icons/icons.svg#icon-tg"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="mailto:dari.shpak.codes@gmail.com" class="link">
+              <svg width="40" height="40" class="email-icon">
+                <use href="./images/icons/icons.svg#icon-mail"></use>
+              </svg>
+            </a>
           </li>
         </ul>
-        <button class="social-item">
-          <svg width="15" height="15">
-            <use href="./images/icons/icons.svg#icon-burger"></use>
-          </svg>
+        <button class="social-item mob-menu-btn">
+        <svg class="icon-burger" width="80" height="80">
+          <use href="./images/icons/icons.svg#icon-burger"></use>
+        </svg>
         </button>
       </div>
     </header>
     <main>
-      <section class="section">
+     <section class="section hero-section">
         <div class="container">
           <img src="./images/hero3.png" alt="" width="350" class="hero-img" />
-          <p>About me</p>
-          <h1>Daria Shpak</h1>
-          <p>
-            I began my journey in the world of design armed with a fascination
-            for pixels and a keen eye for aesthetics. Over the years, I've honed
-            my skills in graphic design, web development, and user experience,
-            navigating the ever-evolving landscape of digital media with
-            curiosity and determination.
-          </p>
-          <button type="button">Download CV</button>
-          <ul>
-            <li>
-              <a
-                class="link"
-                href="https://drive.google.com/file/d/1b5-_WPS2a1CpHvZNWC09ZX6WtWiIZpAc/view?pli=1"
-                target="_blank"
-                rel="noreferrer noopener"
-                >CV</a
-              >
-            </li>
-            <li>
+          <h1 class="hero-title section-title">
+            Hello, I'm Daria. FrontEnd developer based in Kyiv.
+          </h1>
+          <p>I`m passionate about creating products that people love to use.</p>
+          <a href="" class="button link hero-button"> Get in touch</a>
+
+          <ul class="social-list">
+            <li class="social-item">
               <a
                 class="link"
                 href="https://www.linkedin.com/in/dari-shpak/"
                 target="_blank"
                 rel="noreferrer noopener"
-                >IN</a
+              >
+                IN</a
               >
             </li>
-            <li>
+            <li class="social-item">
               <a
                 class="link"
                 href="https://github.com/DariShpak"
                 target="_blank"
                 rel="noreferrer noopener"
-                >GH</a
               >
+                GH
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                class="link"
+                href="https://t.me/dari_shpak"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                TG
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="link" href="" target="_blank" rel="noreferrer noopener">
+                CV
+              </a>
             </li>
           </ul>
         </div>
       </section>
       <section class="section">
         <div class="container">
-          <h2>My tech skills</h2>
-          <ul>
+          <h2 class="section-title">My tech skills</h2>
+          <ul class="list">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -97,7 +111,7 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2>Past experience</h2>
+          <h2>My experience</h2>
           <ul>
             <li>
               <h3>Freelance</h3>
@@ -184,26 +198,53 @@
         </div>
       </section>
     </main>
-    <section class="section">
-      <div class="container">
-        <h2>Get in Touch</h2>
-        <p>Want to create something awesome?</p>
-        <a href="" class="link">Get in touch</a>
+   <section class="section contact-section">
+      <div class="container contact-container">
+        <div class="content-wrapper contact-content-wrapper">
+          <h2 class="visually-hidden">Contact</h2>
+          <p class="section-title contact-text">
+            Want to create something awesome?
+          </p>
+          <p class="section-title contact-text">Drop me a message.</p>
+          <a href="" class="button link contact-button">Tap here</a>
+        </div>
       </div>
     </section>
-    <footer>
-      <div class="container">
-        <ul>
-          <li><a href="" class="link">Home</a></li>
-          <li><a href="" class="link">Work</a></li>
-          <li><a href="" class="link">About</a></li>
-          <li><a href="" class="link">Contact</a></li>
+   <footer class="content-wrapper">
+      <div class="container footer-container">
+        <a href="./index.html" class="link">
+          <p class="logo-text footer-logo">Dari.</p></a
+        >
+        <p>Frontend developer who creates memorable projects.</p>
+        <ul class="social-list list">
+          <li class="social-item">
+            <a href="tel:+380635822191" class="link">📞</a>
+          </li>
+          <li class="social-item">
+            <a href="mailto:dari.shpak.codes@gmail.com" class="link">✉️</a>
+          </li>
+          <li class="social-item">
+            <a
+              class="link"
+              href="https://www.linkedin.com/in/dari-shpak/"
+              target="_blank"
+              rel="noreferrer noopener"
+              >IN</a
+            >
+          </li>
+          <li class="social-item">
+            <a
+              class="link"
+              href="https://github.com/DariShpak"
+              target="_blank"
+              rel="noreferrer noopener"
+              >GH</a
+            >
+          </li>
         </ul>
-        <p>
+        <p class="footer-text">
           Developed with
-          <svg width="15" height="15" class="heart-icon">
-            <use href="./images/icons/symbol-defs.svg#icon-heart"></use>
-          </svg>
+         🖤
           by Dari Shpak
         </p>
       </div>
